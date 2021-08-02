@@ -11,12 +11,12 @@ WIP
 2. Append ***ALL** section in **ux/ur0:tai/config.txt** with:
 ```
 *ALL
-ux0:tai/VitaNearestNeighbour.suprx
+ux0:tai/VitaBilinear.suprx
 ```
 Or create ***TITLE_ID** section to choose only specific game. For example **Disgaea 3: Absence of Detention (Eu region)**:
 ```
 *PCSB00098
-ux0:tai/VitaNearestNeighbour.suprx
+ux0:tai/VitaBilinear.suprx
 ```
 See **[taihen-parser repo](https://github.com/DaveeFTW/taihen-parser)** for more info  
 3. **Reload taiHEN config.txt** from settings app or restart your Vita  
