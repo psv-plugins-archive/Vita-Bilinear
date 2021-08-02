@@ -9,7 +9,7 @@ WIP?
 
 ## Usage
 1. Download and put **[VitaBilinear.suprx](https://github.com/swosho/Vita-Bilinear/releases)** into your **tai** folder  
-2. Create ***TITLE_ID** section to choose only specific game. For example, **Chaos Rings I**:
+2. Create ***TITLE_ID** section to choose a specific game. For example, **Chaos Rings I**:
 ```
 *PCSG00497
 ux0:tai/VitaBilinear.suprx
