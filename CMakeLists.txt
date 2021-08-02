@@ -8,20 +8,20 @@ if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
   endif()
 endif()
 
-project(VitaNearestNeighbour)
+project(VitaBilinear)
 include("${VITASDK}/share/vita.cmake" REQUIRED)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,-q -Wall -O3 -nostdlib")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti -fno-exceptions")
 
-add_executable(VitaNearestNeighbour
+add_executable(VitaBilinear
   main.c
 )
 
-target_link_libraries(VitaNearestNeighbour
+target_link_libraries(VitaBilinear
   taihen_stub
   SceLibKernel_stub
   SceGxm_stub_weak
 )
 
-vita_create_self(VitaNearestNeighbour.suprx VitaNearestNeighbour CONFIG exports.yml UNSAFE)
+vita_create_self(VitaBilinear.suprx VitaBilinear CONFIG exports.yml UNSAFE)
