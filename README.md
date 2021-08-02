@@ -2,10 +2,11 @@
 
 # Vita Bilinear
 Simple taiHEN plugin for PlayStation Vita that overrides texture sampling.   
-This is a one-word-changed fork of [Vita-Nearest-Neighbour](https://github.com/MuxaJlbl4/Vita-Nearest-Neighbour), made specifically to address the unfiltered textures in Chaos Rings and Chaos Rings Omega.
+This is a one-word-changed fork of [Vita-Nearest-Neighbour](https://github.com/MuxaJlbl4/Vita-Nearest-Neighbour), made specifically to address the unfiltered textures in Chaos Rings and Chaos Rings Omega. Could be useful for other games.
 
 ## Showcase
-WIP?
+![CRI-1](https://user-images.githubusercontent.com/5187034/127921982-c1cbfa7a-ca26-4c70-98a0-41b66b081e71.gif)
+![CRI-2](https://user-images.githubusercontent.com/5187034/127922049-0cc6167c-8ed2-45cc-85f1-ec2b39efab96.gif)
 
 ## Usage
 1. Download and put **[VitaBilinear.suprx](https://github.com/swosho/Vita-Bilinear/releases)** into your **tai** folder  
