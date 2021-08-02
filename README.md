@@ -1,7 +1,8 @@
 ![PixelVitaLogo](https://user-images.githubusercontent.com/20092823/113035584-09c89c80-919c-11eb-9a82-a0cc51e6c6f0.png)
 
 # Vita Bilinear
-Simple taiHEN plugin for PlayStation Vita that overrides texture sampling. A one-word-changed fork of [Vita-Nearest-Neighbour](https://github.com/MuxaJlbl4/Vita-Nearest-Neighbour), made specifically to improve image quality of the early Chaos Rings titles, all of which utilise point filtering for textures.
+Simple taiHEN plugin for PlayStation Vita that overrides texture sampling.
+This is a one-word-changed fork of [Vita-Nearest-Neighbour](https://github.com/MuxaJlbl4/Vita-Nearest-Neighbour), made specifically to improve image quality of the early Chaos Rings titles, all of which utilise point filtering.
 
 ## Showcase
 WIP
