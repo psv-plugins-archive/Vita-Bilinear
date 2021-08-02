@@ -8,7 +8,7 @@ static tai_hook_ref_t ref;
 
 int sceGxmTextureSetMagFilter_patched(SceGxmTexture *texture, SceGxmTextureFilter magFilter)
 {
-	int ret = TAI_CONTINUE(int, ref, texture, SCE_GXM_TEXTURE_FILTER_POINT);
+	int ret = TAI_CONTINUE(int, ref, texture, SCE_GXM_TEXTURE_FILTER_LINEAR);
 	return ret;
 }
 
