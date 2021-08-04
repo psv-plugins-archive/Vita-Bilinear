@@ -10,9 +10,11 @@ This is a one-word-changed fork of [Vita-Nearest-Neighbour](https://github.com/M
 
 ## Usage
 1. Download and put **[VitaBilinear.suprx](https://github.com/swosho/Vita-Bilinear/releases)** into your **tai** folder  
-2. Create ***TITLE_ID** section to choose a specific game. For example, **Chaos Rings I**:
+2. Add a ***TITLE_ID** section to your **ux/ur0:tai/config.txt** to choose a specific game. For example, **Chaos Rings I** and **Chaos Rings Ω**:
 ```
 *PCSG00497
+ux0:tai/VitaBilinear.suprx
+*PCSG00499
 ux0:tai/VitaBilinear.suprx
 ```
 See **[taihen-parser repo](https://github.com/DaveeFTW/taihen-parser)** for more info  
